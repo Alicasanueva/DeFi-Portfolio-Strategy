@@ -135,6 +135,9 @@ Este proyecto demuestra que:
 
 - **3.Model_Training.ipynb**  
   Evaluación de distintos enfoques de *machine learning* (regresión y clasificación), siempre comparados contra un baseline económico.
-
+  
 - **DATA/**  
-  Dataset público con información histórica del APR de staking de ETH en Lido.
+  Carpeta con los datasets utilizados en el proyecto:  
+  - `rewards.csv` → Dataset original público con información histórica del APR de staking de ETH en Lido.
+  - `df_staking.csv` → Dataset derivado, limpio y preparado para el análisis, con variables creadas y calculadas a partir del dataset original.
+
